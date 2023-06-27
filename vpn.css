@@ -7,12 +7,16 @@
 
 .main-welcome{
   height:2vh;
+  background-image: linear-gradient( rgb(56, 144, 245), white);
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
 }
 
 .body{
   font-size: 67.5%;
-  backdrop-filter: blur(10px);
-  background-color: black;
+
 }
 .header-mains{
   display: flex;
@@ -22,7 +26,7 @@
   display: flex;
   font-family: 'Lobster', cursive;
   font-family: 'Poppins', sans-serif;
-  
+  width: 100%;
   height: 3.3rem;
   
   justify-content: space-between;
@@ -30,13 +34,13 @@
   font-size: 1.2rem;
 }
 .header{
- padding-top: 2rem;
+ padding-top: 1rem;
 display: flex;
 font-family: 'Lobster', cursive;
 font-family: 'Poppins', sans-serif;
 
 height: 3.3rem;
-
+width: 100%;
 justify-content: space-between;
 align-items: center;
 font-size: 1.2rem;
@@ -46,7 +50,7 @@ font-size: 1.2rem;
 .logo{
   font-size: 3.5rem;
   font-weight: 600;
-  margin-left: 2%;
+ 
   letter-spacing: 0.2rem;
   font-family: 'Poppins', sans-serif;
   font-family: 'Satisfy', cursive;
@@ -58,13 +62,14 @@ font-size: 1.2rem;
 }
 .menu-bar{
   display: flex;
-  max-width: 15%;
-  justify-content: space-between;
+  justify-content: unset;
+  
+
   
 }
 .user-view{
-  display: flex;
- margin-left: 56rem;
+  display: block;
+ margin-left: 40%;
  border: .2rem solid rgb(0, 111, 237);
  border-radius: 7rem;
 }
@@ -73,9 +78,9 @@ font-size: 1.2rem;
 }
 .menu-bar .it{
   position: relative;
-  margin-left: 3.5%;
-  margin-right:7.5%;
-  width: 10rem;
+  margin-left: 2.5%;
+  margin-right:5.5%;
+  width:7rem;
 }
 .menu-bar .it:hover::after{
   content: '';
@@ -141,8 +146,7 @@ margin-left: 1%;
 margin-right: 1%;
 }
 .discover{
-  margin-left: 5%;
-  margin-right: 5%;
+
   border: .3rem solid  rgb(0, 111, 237);
   background-color:  rgb(0, 111, 237);
    padding-top: .3rem;
@@ -171,7 +175,7 @@ margin-right: 1%;
     transform: translateY(0%);
   }
 }
-.discover a{
+.discover {
   text-decoration: none;
   color: #fff;
   font: 700;
@@ -505,6 +509,8 @@ margin-top: 2%;
 display: flex;
 justify-content: space-around;
 align-items: center;
+margin-top: 3rem;
+margin-bottom: 4rem;
 }
 
 
@@ -646,9 +652,7 @@ h6{
   border: .4rem solid  rgb(0, 111, 237);
 }
 .network{
-  margin-left: 6%;
-  margin-right: 6%;
-  margin-top: 5%;
+text-align: center;
 }
 .comp{
   display: flex;
@@ -693,8 +697,8 @@ h6{
 
 
 .secureit{
-  width: 50%;
-  padding-left: 15%;
+  width: 30%;
+  
 }
 .logo2{
   font-size: 5.5rem;
@@ -847,8 +851,18 @@ box-shadow: .4rem .5rem 2rem .01rem gray;
   display: none;
 }
 
+.ibx{
+ background-image: url(3129481.jpg);
+ background-size: cover;
+ background-position: center;
+ width: 50%;
+ height: 40vh;
+
+}
+
 .sign-up-menu-bar{
-  top: 3%;
+  top: 10%;
+  margin-left: 10%;
 position: fixed;
 background-color:rgb(225, 225, 225);
 background-image: linear-gradient( rgb(0, 111, 237),white, white, rgb(0, 111, 237));
@@ -884,4 +898,463 @@ border: 0.2rem solid rgb(0, 111, 237);
 }
 #lgbtn:hover{
   opacity: 0.8;
+}
+.img{
+  background-image: url(Flat\ vector\ illustration\ of\ stock\ trader\ working\ on\ computer.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  width: 40%;
+  margin-bottom: 5rem;
+}
+
+.b1d{
+  display: none;
+}
+
+.menu-bar-2{
+  display: none;
+}
+
+@media (min-width:980px)  {
+  
+  .head-btn{
+    width: 15rem;
+    display: flex;
+
+    margin-left: 10%;
+    
+  }
+  .upit{
+    width: 5rem;
+  }
+  .main-welcome{
+    width: 100%;
+    display: flex;
+    height: 3rem;
+    justify-content: space-around;
+  }
+  .welcome{
+    font-size: 1.4rem;
+  }
+
+  .header{
+  
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: top;
+    
+  }
+  .user-view{
+    margin-left: 20%;
+  }
+  .header-mains{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-mains{
+  width: 100%;
+  }
+  .price{
+    height: 0vh;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    margin-top: 1rem;
+    height: 47rem;
+    text-align: center;
+    margin-right: 0rem;
+    align-items: center;
+  }
+  .b1 .list1,.b1 .list2,.b1 .list3{
+    text-align: center;
+    width: 100%;
+    height: 40rem;
+    margin-right: 0rem;
+    display: flex;
+  align-items: center;
+  
+
+  }
+ 
+  .scroll{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 0%;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+  .ft h4{
+    text-align: center;
+    margin-top: 1.6rem;
+    font-size: 40px;
+  }
+  
+  .ft li{
+    font-size: 22px;
+    margin-top: 8px;
+  }
+  .network{
+    width: 100%;
+   display: block;
+   text-align: center;
+  }
+  .review-head{
+    font-size: 2rem;
+  }
+  .secureit{
+    text-align: center;
+    
+    width: 90%;
+    padding-right: 0%;
+  }
+
+  .about{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 25rem;
+  }
+  .logo2{
+    font-size: 3rem;
+  }
+  .srchbar{
+    margin-left: 0%;
+    width: 15rem;
+  }
+  .abt-con{
+    display: flex;
+  height: 30rem;
+  width: 100%;
+  justify-content: space-around;
+  
+  align-items: center;
+  }
+  .sign-up{
+   height: 4rem;
+   display: flex;
+   width: 80%;
+    font-size: .5rem;
+  }
+  .arrbtn{
+    width: 4rem;
+  }
+   
+  .abt1,.abt2{
+    display: flex;
+    height: 10rem;
+    
+  }
+  .abt1 a,.abt2 a{
+    font-size: 1rem;
+  }
+
+  .sign-up{
+    height: 10vh;
+    font-size: 1rem;
+  }
+  .arrbtn{
+    width: 7rem;
+    font-size: 1rem;
+  }
+  
+
+
+
+}
+
+@media (max-width:990px) {
+
+  .main-welcome{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    justify-content: space-around;
+  }
+  .head-btn{
+    width:9rem;
+    display: flex;
+    font-size: .6rem;
+
+    
+  }
+
+  .menu-bar-2 .it a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .menu-bar-2 .it a:hover{
+    letter-spacing: 2px;
+    color:  rgb(0, 111, 237);
+  }
+  .menu-bar-2 .it a::after:hover{
+    content: '';
+    position: absolute;
+    top: 75%;
+    left: 10%;
+  background-image: linear-gradient( to bottom,  rgb(0, 111, 237),rgba(255, 255, 255, 0.867));
+    opacity: 0.8;
+    width:5.8rem;
+    height: .5rem;
+    background-color: aqua;
+  }
+  .header{
+  
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: top;
+    
+  }
+  .header-mains{
+    width: 100%;
+  display: flex;
+    justify-content: space-between;
+  }
+  .welcome{
+    margin-top: 3rem;
+  }
+  .logo{
+    font-size: 40px;
+  }
+  .menu-bar{
+    display: none;
+
+  }
+  .menu-bar-2{
+    margin-top: 2.5rem;
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+
+  }
+  
+  .img{
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+ .welcome{
+  display: flex;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+ }
+ .welcome p{
+  font-size: 22px;
+ }
+
+  .intro{
+  display: flex;
+  flex-direction: column; 
+ }
+
+ .discover-main{
+  display: block;
+
+ 
+  
+ }
+ .discover{
+  text-align: center;
+  margin-right: 0rem;
+  margin-top: 2rem;
+  display: block;
+  transform:translateX(30%);
+  width:10rem;
+  
+   
+}
+ .scroll{
+font-size: 30px;
+display: block;
+width: 100%;
+margin-top: 5%;
+margin-left: 0%;
+text-align: center;
+ }
+.ibx{
+  display: none;
+}
+.ft h4{
+  text-align: center;
+  margin-top: 1.6rem;
+  font-size: 60px;
+}
+
+.ft li{
+  font-size: 22px;
+  margin-top: 8px;
+}
+.scroll{
+  margin-top: 3rem;
+}
+.price{
+  display: flex;
+  flex-direction: row;
+  width: 92%;
+  margin-top: 1rem;
+  height: 62rem;
+  text-align: center;
+  margin-right: 0rem;
+  align-items: center;
+}
+.b1 .list1,.b1 .list2,.b1 .list3{
+  text-align: center;
+  width: 50%;
+  height: 30rem;
+  margin-right: 0rem;
+  display: flex;
+align-items: center;
+
+}
+
+.list1 a ,.list2 a ,.list3 a {
+  font-size: 14px;
+}
+
+.b1 img{
+  display: none;
+}
+ .review-head{
+  font-size: 25px;
+ }
+ .comp{
+  display: flex;
+  flex-direction: column;
+ }
+ .network{
+  margin-top: 1rem;
+  height: 30vh;
+  text-align: center;
+ }
+
+  .secureit{
+    text-align: center;
+    width: 90%;
+    padding-right: 0%;
+  }
+
+  .about{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    
+  }
+  .logo2{
+    padding-top: 1rem;
+    font-size: 2rem;
+  }
+  .srchbar{
+    margin-left: 0%;
+    width: 15rem;
+  }
+  .abt-con{
+    display: flex;
+  height: 30rem;
+  width: 100%;
+  justify-content: space-around;
+  
+  align-items: center;
+  }
+  .sign-up{
+  height: 7vh;
+   display: flex;
+   width: 80%;
+    font-size:1rem;
+    
+  }
+  .arrbtn{
+    width: 7rem;
+    
+  }
+   
+  .abt1,.abt2{
+    display: flex;
+    height: 10rem;
+    
+  }
+  .abt1 a,.abt2 a{
+    font-size: 1rem;
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:550px) {
+
+ 
+  .list1 a ,.list2 a ,.list3 a {
+    font-size: 9px;
+  }
+  .b1{
+    margin-right: 0rem;
+  }
+  .b1 .list1,.b1 .list2,.b1 .list3{
+    text-align: center;
+    width: 70%;
+    height: 20rem;
+     margin-right: 0rem;
+    display: flex;
+   align-items: center;
+
+  
+  }
+  .ft li{
+font-size: 16px;
+
+  }
+ .price{
+  margin-top: 1rem;
+  height: 30vh;
+  display: flex;
+  margin-top: 5rem;
+  width: 30%;
+  justify-content:space-around;
+  align-items: center;
+  flex-direction: column;
+
+ }
+ .img{
+  width:98%;
+  height: 40vh;
+  margin-bottom: 0rem;
+  text-align: center;
+}
+ .r1{
+  display: none;
+ }
+ .secureit{
+  width: 90%;
+    padding-right: 0%;
+ }
 }
