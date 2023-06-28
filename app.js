@@ -33,6 +33,10 @@ let review_arr=[{
 {
   nameR:'Sahil Rathor',
   reviewT:'Lag free surfing with excellent features'
+},
+{
+  nameR:'Puneet Superstarr',
+  reviewT:'EEEEyeahhhhhhh!!!'
 }
 
 
