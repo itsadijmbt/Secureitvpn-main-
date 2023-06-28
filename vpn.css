@@ -222,7 +222,7 @@ margin-right: 1%;
   box-shadow: .2rem .3rem .3rem .3rem rgba(128, 128, 128, 0.685);
   animation-name: featli;
   animation-duration: 2s;
-  animation-iteration-count: 2;
+  animation-iteration-count: 1;
   
 
 }
@@ -253,7 +253,7 @@ margin-right: 1%;
   justify-content: space-around;
   animation-name: pricetwo;
   animation-duration: 2s;
-  animation-iteration-count: 2;
+  animation-iteration-count: 1;
 
   box-shadow: .2rem .3rem .3rem .3rem rgba(128, 128, 128, 0.685);
 
@@ -283,8 +283,8 @@ margin-right: 1%;
   justify-content: space-around;
   animation-name: pricethree;
   animation-duration: 2s;
-  animation-iteration-count: 2;
-
+  animation-iteration-count: 1;
+ 
   box-shadow: .2rem .3rem .3rem .3rem rgba(128, 128, 128, 0.685);
   transition: 0.23s;
 
