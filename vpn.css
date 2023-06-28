@@ -1374,6 +1374,12 @@ font-size: 16px;
   align-items: center;
 
 }
+.btnbtn:active{
+  border-radius: 4rem;
+  box-shadow: 0rem 0rem 1rem .1rem  rgba(0, 185, 247, 0.801);
+  border: 0.2rem solid  rgba(0, 185, 247, 0.801); 
+
+}
 .review{
   width: 70%;
   background-color:transparent;
