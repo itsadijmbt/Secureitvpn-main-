@@ -205,9 +205,9 @@ margin-right: 1%;
   height: fit-content;
 }
 
-
 /*price bar 1*/
 .b1 .list1{
+   
   transition: 0.23s;
   display: flex;
   flex-direction: column;
@@ -223,11 +223,11 @@ margin-right: 1%;
   animation-name: featli;
   animation-duration: 2s;
   animation-iteration-count: 2;
-  animation-delay: 4s;
+  
 
 }
 .list1 a{
-
+  
   text-decoration: none;
   color: black;
   font-size:1rem;
@@ -254,7 +254,7 @@ margin-right: 1%;
   animation-name: pricetwo;
   animation-duration: 2s;
   animation-iteration-count: 2;
-  animation-delay: 4s;
+
   box-shadow: .2rem .3rem .3rem .3rem rgba(128, 128, 128, 0.685);
 
 }
@@ -284,7 +284,7 @@ margin-right: 1%;
   animation-name: pricethree;
   animation-duration: 2s;
   animation-iteration-count: 2;
-  animation-delay: 4s;
+
   box-shadow: .2rem .3rem .3rem .3rem rgba(128, 128, 128, 0.685);
   transition: 0.23s;
 
@@ -333,6 +333,9 @@ margin-right: 1%;
  padding-top: .5rem;
 }
 
+.b1{
+  display: none;
+}
 
 @keyframes butr {
   0%{
@@ -528,14 +531,14 @@ h4{
 h5{
   margin-bottom: 8%;
 }
-.ft li{
+.ftli{
   font-size: 2rem;
   list-style-type:disc;
   font-family: 'Lobster', cursive;
   font-family: 'Poppins', sans-serif;
   animation-name: featli;
-  animation-duration: 3s;
-  animation-delay: 4s;
+  animation-duration: 2s;
+  display: none;
   animation-iteration-count: 1;
 }
 
@@ -576,7 +579,7 @@ to{
   }
 }
 
-.b1 .list1:hover,.list2:hover,.list3:hover{
+.b1 .list1:active,.b1 .list2:active,.b1 .list3:active{
   box-shadow: .3rem .8rem .8rem .8rem rgba(128, 128, 128, 0.685);
   transform: translateY(-3%);
 }

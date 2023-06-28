@@ -20,6 +20,26 @@ const leftbtn=document.querySelector('.left');
 const rightbtn=document.querySelector('.right');
 const reviewName=document.querySelector('.name');
 const reviewD=document.querySelector('.matter');
+const tester1=document.querySelector('.ft');
+const tester=document.querySelectorAll('.ftli');
+const price=document.querySelector('.price');
+const b1=document.querySelectorAll('.b1');
+
+
+
+tester1.addEventListener('touchstart',()=>{
+
+  
+  for(ele of tester)
+  {
+    ele.style.display='block';
+  }
+  
+  b1[0].style.display='block'
+  b1[1].style.display='block'
+  b1[2].style.display='block'
+  
+})
 
 
 let review_arr=[{
