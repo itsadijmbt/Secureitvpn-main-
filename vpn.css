@@ -1358,3 +1358,57 @@ font-size: 16px;
     padding-right: 0%;
  }
 }
+.dynamic-review{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 20rem;
+  margin-top: 2rem;
+
+}
+.left,.right{
+  display: flex;
+  width: 15%;
+ justify-content: center;
+  height: 70%;
+  align-items: center;
+
+}
+.review{
+  width: 70%;
+  background-color:transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.7rem;
+  color: black;
+  font-weight: 700;
+  height: 70%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+  border-radius: 3rem;
+  
+  box-shadow: 0rem 0rem 1rem .1rem  rgba(0, 185, 247, 0.801);  
+}
+.name{
+  width: 100%;
+  text-align: start;
+  color: black;
+  padding-left: 5%;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Satisfy', cursive;
+
+}
+.matter{
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Satisfy', cursive;
+}

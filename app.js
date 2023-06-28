@@ -16,7 +16,27 @@ const logOutBtn = document.getElementById('lgbtn');
 const dropDownMenu = document.querySelector('.sign-up-menu-bar');
 const removeUserMenu = document.querySelector('.intro');
 const PageUSerName =  document.querySelector('.side-menu-user');
+const leftbtn=document.querySelector('.left');
+const rightbtn=document.querySelector('.right');
+const reviewName=document.querySelector('.name');
+const reviewD=document.querySelector('.matter');
 
+
+let review_arr=[{
+  nameR:'Aditya Bhatt',
+  reviewT:'Excellent Vpn company and great ping speeds'
+},
+{
+  nameR:'Arnab Jha',
+  reviewT:'Great product indeed and great ping speeds'
+},
+{
+  nameR:'Sahil Rathor',
+  reviewT:'Lag free surfing with excellent features'
+}
+
+
+];
 
 let access=false;
 let userIntend = true;
@@ -124,3 +144,27 @@ const UserValidationHandler= ()=>{
    }
 
 };
+let rc=0;
+function addOnReview()
+{
+ 
+   reviewName.textContent=review_arr[rc].nameR;
+   reviewD.textContent=review_arr[rc].reviewT;
+ 
+
+}
+
+leftbtn.addEventListener('click',()=>{
+ 
+ if(rc>0)rc=rc-1; 
+ else rc=review_arr.length-1;
+ addOnReview();
+
+});
+rightbtn.addEventListener('click',()=>{
+
+  if(rc<review_arr.length)rc=rc+1; 
+  else rc=0;
+  addOnReview();
+
+});
